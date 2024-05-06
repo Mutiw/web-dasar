@@ -103,7 +103,7 @@ header .hero {
     width: 500px;
 }
 
-.food {
+.me {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -111,29 +111,29 @@ header .hero {
     background-color: #e47a09;
 }
 
-.food .box-food {
+.me .box-me {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.food .box-food .box {
+.me .box-me .box {
     text-align: center;
     margin-inline: 20px;
 }
 
-.box .box-food .box img {
+.box .box-me .box img {
     width: 100%;
     margin-bottom: 10px;
 }
 
-.food .box-food .box h1 {
+.me .box-me .box h1 {
     font-size: 30px;
     color: white;
 }
 
-.food .box-food .box p {
+.me .box-me .box p {
     font-size: 15px;
     color: white;
 }
@@ -304,16 +304,16 @@ aside .box-social-media img {
         font-size: 14px;
     }
 
-    .food {
+    .me {
         height: 100%;
         padding: 50px 0 30px 0;
     }
 
-    .food .box-food {
+    .me .box-me {
         flex-direction: column;
     }
 
-    .food .box-food .box img {
+    .me .box-me .box img {
         width: 300px;
     }
 
@@ -362,16 +362,16 @@ aside .box-social-media img {
         padding: 15px 60px 60px 20px;
     }
 
-    .food .box-food .box img {
+    .me .box-me .box img {
         width: 200px;
     }
 
-    .food .box-food .box h1 {
+    .me .box-me .box h1 {
         font-size: 15px;
         color: white;
     }
 
-    .food .box-food .box p {
+    .me .box-me .box p {
         font-size: 10px;
         color: white;
     }
